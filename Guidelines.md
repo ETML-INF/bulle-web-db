@@ -1,17 +1,47 @@
 # Guidelines
 
 Version : ce document est pour l'instant dans un état de brouillon. 
-Tout ce qui est écrit ci-dessous doit être validé à la rentrée d'Aout 2022 par l'ensemble des enseignants de la bulle web DB.
+Tout ce qui est écrit ci-dessous doit être validé par l'ensemble des enseignants de la bulle web DB.
 
-# Règles de la collaboration entre enseignants de la bulle
+## But de ce document :
+- Définir la collaboration au sein de la bulle
+- Permettre aux autres bulles de connaître les outils et les technologies utilisés par la bulle web.
+- Définir les interactions avec les autres bulles
+exemple : On veut faire tourner une application web dans un conteneur => Utiliser les mêmes outils et bonnes pratiques que la bulle dev-ops
+
+## Règles de la collaboration entre enseignants de la bulle
 
 Les règles ci-dessous doivent être adoptées et appliquées par tous les enseignants de la bulle.
 
 - le partage par défaut de toutes les productions (documents, cours, exercices, tests, code, etc) réalisées par les différents enseignants de la bulle
 - les documents sont déposés en priorité dans sharepoint (Sauf pour les documents confidentiels) 
 - pour chaque document déposé dans sharepoint, un lien est présent sur K:\
-- le code des exercices, des tests formatifs et sommatifs, des exemples, etc est déposé dans github
-- pour chaque module ICT contenant des sources (code source, sql, json, etc) un dépôt github est créé
+- pour chaque module ICT contenant des sources (code source, sql, json, etc) un dépôt github privée est créé contenant le code des exercices, des tests formatifs et sommatifs, des exemples, etc
+
+## Langages et Frameworks
+
+Avec les nouveaux modules web le javascript devient le langage dominant.
+- front end : js + react
+- back end : js + nodejs et express
+
+## L'écosystème js 
+
+- npm
+- webpack (le strict minimum) 
+- Style Guide : https://airbnb.io/javascript/
+- linter
+- debugger
+- tests automatiques (unitaires, fonctionnels) avec Jest ? Cypress ? autre ?
+- logging
+- CI : github actions et/ou pipeline gitlab
+
+## Outils
+
+outils pour le dev web : vs code
+
+outils pour MySQL : à définir
+
+outils pour mongoDB : à définir
 
 ## Tester une nouvelle technologie
 
@@ -21,10 +51,10 @@ Il sera ensuite plus simple de comparer telle ou telle technologie en comparant 
 
 Liste non exhaustive des technologies à tester :
 
-[] version php non MVC + MySQL
-[] version php MVC + MySQL
-[] version laravel + MySQL
-[] version front React + API REST + backend php + MySQL
-[] version front React + API REST + backend laravel + MySQL
-[] version front React + API REST + backend nodejs et express + MySQL
-[] version front React + API REST + backend nodejs et express + MongoDB
+[ ] version php non MVC + MySQL
+[ ] version php MVC + MySQL
+[ ] version laravel + MySQL
+[ ] version front React + API REST + backend php + MySQL
+[ ] version front React + API REST + backend laravel + MySQL
+[ ] version front React + API REST + backend nodejs et express + MySQL
+[ ] version front React + API REST + backend nodejs et express + MongoDB
