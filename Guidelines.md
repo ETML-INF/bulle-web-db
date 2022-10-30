@@ -37,7 +37,13 @@ Avec les nouveaux modules web le javascript devient le langage dominant.
 
 ## Outils
 
-outils pour le dev web : vs code
+outils pour le dev web : 
+- vs code 
+- extensions vs code : 
+    - ESLint : Permet d'obtenir des informations en cas d'erreurs
+    - Prettier : Permet de formater le code automatiquement lors de la sauvegarde de la page
+    - Auto Import : Permet de gérer les imports js
+    - Material Icon Theme
 
 outils pour MySQL : à définir
 
@@ -51,10 +57,10 @@ Il sera ensuite plus simple de comparer telle ou telle technologie en comparant 
 
 Liste non exhaustive des technologies à tester :
 
-[ ] version php non MVC + MySQL
-[ ] version php MVC + MySQL
-[ ] version laravel + MySQL
-[ ] version front React + API REST + backend php + MySQL
-[ ] version front React + API REST + backend laravel + MySQL
-[ ] version front React + API REST + backend nodejs et express + MySQL
-[ ] version front React + API REST + backend nodejs et express + MongoDB
+- [ ] version php non MVC + MySQL
+- [ ] version php MVC + MySQL
+- [ ] version laravel + MySQL
+- [ ] version front React + API REST + backend php + MySQL
+- [ ] version front React + API REST + backend laravel + MySQL
+- [ ] version front React + API REST + backend nodejs et express + MySQL
+- [ ] version front React + API REST + backend nodejs et express + MongoDB
