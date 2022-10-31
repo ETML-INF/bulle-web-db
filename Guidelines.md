@@ -17,6 +17,7 @@ Les règles ci-dessous doivent être adoptées et appliquées par tous les ensei
 - les documents sont déposés en priorité dans sharepoint (Sauf pour les documents confidentiels) 
 - pour chaque document déposé dans sharepoint, un lien est présent sur K:\
 - pour chaque module ICT contenant des sources (code source, sql, json, etc) un dépôt github privée est créé contenant le code des exercices, des tests formatifs et sommatifs, des exemples, etc
+- suivre les conventions de nommage et de codage de l'ETML
 
 ## Langages et Frameworks
 
@@ -35,19 +36,39 @@ Avec les nouveaux modules web le javascript devient le langage dominant.
 - logging
 - CI : github actions et/ou pipeline gitlab
 
+## Base de données
+ 
+MySQL (latest version)
+
+MongoDB (latest version)
+
 ## Outils
 
-outils pour le dev web : 
+### outils pour le dev web : 
+
 - vs code 
 - extensions vs code : 
     - ESLint : Permet d'obtenir des informations en cas d'erreurs
     - Prettier : Permet de formater le code automatiquement lors de la sauvegarde de la page
     - Auto Import : Permet de gérer les imports js
-    - Material Icon Theme
+    - Material Icon Theme¨
 
-outils pour MySQL : à définir
+- Webstorm (à tester)
+Licence gratuite pour l'éducation
 
-outils pour mongoDB : à définir
+### outil pour générer des schémas entités/associations :
+
+https://www.looping-mcd.fr/ Version 4.0
+(à utiliser dans le module 164)
+
+### outils pour MySQL : 
+
+- ligne de commandes
+- Workbench : https://www.mysql.com/products/workbench/
+
+### outils pour mongoDB : 
+
+à définir
 
 ## Tester une nouvelle technologie
 
